@@ -1,7 +1,7 @@
 # Agencia Viagem ✈️
  
 <p *align="center">
-  <img src="Layout_viagens.pdf" alt="Preview do Projeto Agencia Viagem" width="100%">
+  <img src="img/Layout_viagens_page-0001.jpg" alt="Preview do Projeto Agencia Viagem" width="100%">
 </p>
 
 ## 💻 Sobre o Projeto
