@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 /* Reset de estilos padrão */
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
