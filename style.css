@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 /* Reset de estilos padrão */
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,5 +20,115 @@
     --texto-terciario: #F9f9f9; 
     --texto-cinza: #ccc; 
 }
+
 /* Estilos para o cabeçalho */
-/* 2ª Digitação (Aqui) */
+header {
+    background: var(--fundo-escuro);
+    color: var(--texto-claro);
+    padding: 15px;
+    text-align: center;
+}
+h1 {
+    font-family: "Dancing Script", serif;
+    font-size: 2.5rem;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+nav a {
+    color: var(--texto-claro);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos para o container principal */
+.container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: url(img/london.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+/* Estilos para a barra lateral esquerda */
+.sidebar {
+    flex: 1; /* Neste caso usará 25% da largura */
+    min-width: 200px;
+    background: var(--texto-secundario);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Estilos para o conteúdo principal */
+.main-content {
+    flex: 2; /* Neste caso usará 50% da largura */
+    min-width: 300px;
+    padding: 15px;
+}
+.subtitle {
+    color: var(--texto-secundario);
+    font-size: 2.5rem;
+}
+
+/* Estilos para a barra lateral direita */
+.secondary-content {
+    flex: 1; /* Neste caso usará 25% restantes da largura */
+    min-width: 200px;
+    background: var(--texto-terciario);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Estilos para os itens das listas */
+li{
+    padding: 9px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background: var(--fundo-escuro);
+    color: var(--texto-claro);
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, button {
+    padding: 10px;
+    border: 1px solid var(--texto-cinza);
+    border-radius: 5px;
+}
+button {
+    background: var(--fundo-escuro);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+button:hover {
+    background: #005f8a;
+}
+
+/* Estilos para as imagens */
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilos responsivos para telas menores que 768px */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
