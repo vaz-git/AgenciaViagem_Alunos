@@ -1,0 +1,24 @@
+/* Importação de fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poiret One", serif;
+    list-style: none;
+}
+
+/* Definição de variáveis de cores */
+:root {
+    --fundo-escuro: #0077b6;; 
+    --texto-fundo-d: #005f8a; 
+    --texto-claro: #FFFFFF; 
+    --texto-secundario: #F1f1f1; 
+    --texto-terciario: #F9f9f9; 
+    --texto-cinza: #ccc; 
+}
+/* Estilos para o cabeçalho */
+/* 2ª Digitação (Aqui) */
